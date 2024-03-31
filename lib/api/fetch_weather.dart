@@ -1,11 +1,8 @@
-import 'dart:convert';
+import  'package:http/http.dart' as http;
+import 'package:weatherapp_starter_project/export/export_file.dart';
 
-import 'package:weatherapp_starter_project/model/weather_data.dart';
-import 'package:http/http.dart' as http;
-import 'package:weatherapp_starter_project/model/weather_data_current.dart';
-import 'package:weatherapp_starter_project/model/weather_data_daily.dart';
-import 'package:weatherapp_starter_project/model/weather_data_hourly.dart';
-import 'package:weatherapp_starter_project/utils/api_url.dart';
+import '../model/weather_data_daily.dart';
+import '../model/weather_data_hourly.dart';
 
 class FetchWeatherAPI {
   WeatherData? weatherData;

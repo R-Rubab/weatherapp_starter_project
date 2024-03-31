@@ -1,9 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:get/state_manager.dart';
 import 'package:intl/intl.dart';
-import 'package:weatherapp_starter_project/controller/global_controller.dart';
-import 'package:weatherapp_starter_project/model/weather_data_hourly.dart';
-import 'package:weatherapp_starter_project/utils/custom_colors.dart';
+import 'package:weatherapp_starter_project/export/export_file.dart';
+
+import '../model/weather_data_hourly.dart';
 
 class HourlyDataWidget extends StatelessWidget {
   final WeatherDataHourly weatherDataHourly;

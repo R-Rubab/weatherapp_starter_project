@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:weatherapp_starter_project/screens/home_screen.dart';
-
+import 'package:weatherapp_starter_project/export/export_file.dart';
 void main() {
   runApp(const MyApp());
 }
