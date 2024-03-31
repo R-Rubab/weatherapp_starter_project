@@ -30,12 +30,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
-  geocoding: ^2.0.4
-  geolocator: ^9.0.1
-  get: ^4.6.5
-  http: ^0.13.4
-  intl: ^0.17.0
-  sleek_circular_slider: ^2.0.1
+  geocoding: 
+  geolocator: 
+  get:
+  http: 
+  intl: 
+  sleek_circular_slider: 
 
 dev_dependencies:
   flutter_lints: ^2.0.0
